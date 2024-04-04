@@ -6,8 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <img src="img.jpg" style="float: left;width: 800px;height: 450px;">
-    <div>
+    <nav>
+        <h3 >Home</h3>
+        <h3 ><a href="#table">table</a></h3>
+    </nav>
+    <img src="img.jpg" style="width: 800px;height: 450px;display: block; ">
+    <div >
         <ul type="square"> 
         <li>KU</li>
             <Ol type="1">
@@ -46,23 +50,29 @@
             </ul>
         </ul>
     </div>
-<table  border="1" class=" table">
-    <tr>
-        <th>UserName</th>
-        <th>Rank</th>
-        <th>level</th>
-    </tr>
-    <tr>
-        <td>jackiswack</td>
-        <td>Bronze </td>   
-        <td>58</td> 
-    </tr>
-    <tr>
-        <td>ChikiChiki</td>
-        <td>Bronze 1</td>
-        <td>57</td>
-    </tr>
-</table> -->
+ <a >
+      <table  border="1" class=" table">
+        <tr >
+            <th colspan="3"> <h3>Name</h3></th>
+            <th colspan="2"><h3>Address</h3></th>
+            
+        </tr>
+        <tr>
+            <td><h4>First Name</h4></td>
+            <td><h4>Middle Name</h4></td>   
+            <td><h4>Last Name</h4></td> 
+            <td><h4>City</h4></td> 
+            <td><h4>Ward No.</h4></td> 
+
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="3"><h4>Contact</h4></td> 
+            <td rowspan="2">9988776655</td>
+            <tr><td rowspan="2">987654321</td></tr>
+            
+        </tr>
+    </table> 
+    </a>
 <map name="imagemap">
     <area shape="rect" coords="0, 0, 100,100" href ="rect.html">
 
@@ -73,22 +83,28 @@
 
 </map>
 <img src="fb.png" width="100px" height="100px" usemap="#circle">
+
+<p> The<abbr title="World Health Organization"> WHO </abbr>was founded in 1948</p>
+<p>The game <acronym title="Players Unknown Battle Ground">PUBG</acronym> is an online vedio game</p>
 </body>
+
 <style>
+     h3{
+        display: inline-block;
+    }
     table.table{
         margin-top: 100px;
         margin-left: 100px;
         border: 1px solid black;
         border-collapse: collapse;
     }
-    td{
-        padding: 1%;
-    }
+    
     th{
         border: 2px solid black;
     }
     div{
         display: block;
+        background-color: red
     }
 </style>
 </html>
